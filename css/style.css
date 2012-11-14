@@ -1,0 +1,84 @@
+body {
+  background-attachment: fixed;
+  background-color: #F3F3F3;
+  background-image: url("../img/dotz.gif");
+}
+
+
+#main-nav {
+  background-image: -moz-linear-gradient(center top , #FFFFFF, #B5B5B5);
+  margin-left: auto;
+  margin-right: auto;
+  border-left: medium none #C0C0C0;
+  border-right: medium none #C0C0C0;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.87), 0 -1px 3px -1px #FFFFFF inset;
+  width:100%;
+}
+
+#main-nav .navbar-inner {
+    margin: 0 25%;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+li.post .avatar-container {
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  box-shadow: 0 1px 3px 1px rgba(0, 0, 0, 0.43), 0 -1px 3px -1px #FFFFFF inset;
+  margin-right: 0;
+  padding: 8px;
+  background-image: url("../img/dotz.gif");
+}
+
+.span1 {
+  width: auto;
+}
+
+li.post .post-container {
+  background-color: #FEFEFE;
+  background-image: url("./bodytexture-bb6cb554f425c44a8094f3a5e4f54942.png");
+  border-radius: 0 3px 3px 3px;
+  box-shadow: 0 1px 3px 1px transparent, 0 -1px 3px -1px #FFFFFF inset;
+  float: left;
+  margin-left: 0;
+  margin-right: -10px;
+  padding: 2px 6px;
+  width: 540px;
+}
+
+.new-post-container li.post .post-container {
+  background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.42), rgba(172, 173, 173, 0.43));
+  box-shadow: 0 1px 3px 1px transparent, 0 -1px 3px -1px #3C3838 inset;
+}
+
+.new-post-container li.post .avatar-container,.new-post-container li.post:hover .avatar-container {
+  background-image: -moz-linear-gradient(center top , rgba(255, 8, 8, 0.42), rgba(204, 40, 72, 0.81));
+  box-shadow: 0 1px 3px 1px transparent, 0 -1px 3px -1px #3C3838 inset;
+}
+
+li.post {
+  margin-bottom: 0px;
+  padding: 0 0 2px;
+}
+
+li.post .low-margin [class*="span"].showOnHover {
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#main-container{
+  background: none repeat scroll 0 0 rgba(255, 255, 255, 0.53);
+   
+}
+
+li.post:hover .avatar-container{
+background-image: -moz-linear-gradient(center top , rgba(117, 208, 220, 0.42), rgba(17, 209, 242, 0.43));
+
+} 
+
+li.post:hover .post-container {
+  background-image: -moz-linear-gradient(center top , rgba(255, 255, 255, 0.42), rgba(172, 173, 173, 0.43));
+  box-shadow: 0 1px 3px 1px transparent, 0 -1px 3px -1px #3C3838 inset;
+}
+
+
